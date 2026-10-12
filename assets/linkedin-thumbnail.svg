@@ -1,0 +1,50 @@
+<svg width="1200" height="628" viewBox="0 0 1200 628" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="628" fill="url(#bg)"/>
+
+  <!-- eyebrow -->
+  <text x="80" y="76" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="2" fill="#2ea043">OPEN SOURCE &#183; CLAUDE CODE MOD</text>
+
+  <!-- terminal card -->
+  <rect x="80" y="104" width="1040" height="130" rx="10" fill="#1c2128" stroke="#30363d"/>
+  <circle cx="104" cy="126" r="6" fill="#ff5f56"/>
+  <circle cx="124" cy="126" r="6" fill="#ffbd2e"/>
+  <circle cx="144" cy="126" r="6" fill="#27c93f"/>
+
+  <text x="104" y="172" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#8b949e">$ /plugin install token-weather</text>
+
+  <text x="104" y="206" font-family="Consolas, 'Courier New', monospace" font-size="20" xml:space="preserve"><tspan fill="#39c5e8">&#9729; Cloudy</tspan><tspan fill="#c9d1d9">  42%  </tspan><tspan fill="#e3b341">84.2k</tspan><tspan fill="#c9d1d9">/200k</tspan></text>
+
+  <!-- sparkline drawn as rects, not glyphs: block-element glyphs don't rasterize reliably across renderers -->
+  <g fill="#8b949e">
+    <rect x="400" y="202" width="5" height="4"/>
+    <rect x="409" y="199" width="5" height="7"/>
+    <rect x="418" y="196" width="5" height="10"/>
+    <rect x="427" y="193" width="5" height="13"/>
+    <rect x="436" y="191" width="5" height="15"/>
+    <rect x="445" y="193" width="5" height="13"/>
+    <rect x="454" y="190" width="5" height="16"/>
+  </g>
+
+  <text x="475" y="206" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#484f58">&#9650; +6.1k last turn</text>
+
+  <!-- pull quote -->
+  <text x="600" y="320" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="38" fill="#f0f6fc" text-anchor="middle">a live weather forecast</text>
+  <text x="600" y="366" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="38" fill="#f0f6fc" text-anchor="middle">for your context window.</text>
+  <text x="600" y="404" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#6e7681" text-anchor="middle">built live, with Claude Code's own hot reload</text>
+
+  <!-- footer icon: two stacked clouds / sparkline motif -->
+  <g transform="translate(600,470)" stroke="#2ea043" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M -24 6 a 9 9 0 0 1 0 -18 a 12 12 0 0 1 23 -3 a 10 10 0 0 1 1 20 z"/>
+  </g>
+
+  <!-- footer text -->
+  <text x="600" y="520" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc" text-anchor="middle">token-weather</text>
+  <text x="600" y="546" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6e7681" text-anchor="middle">github.com/thisismairaj/token-weather</text>
+</svg>
