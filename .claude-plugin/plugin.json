@@ -1,0 +1,11 @@
+{
+  "name": "token-weather",
+  "version": "0.1.0",
+  "description": "A live weather forecast of your context window, in the band above the prompt.",
+  "author": {
+    "name": "thisismairaj",
+    "url": "https://github.com/thisismairaj"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

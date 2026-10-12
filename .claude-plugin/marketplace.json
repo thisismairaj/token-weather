@@ -1,0 +1,10 @@
+{
+  "name": "token-weather",
+  "description": "A live weather forecast of your context window, in the band above the prompt.",
+  "owner": { "name": "thisismairaj", "url": "https://github.com/thisismairaj" },
+  "plugins": [{
+    "name": "token-weather",
+    "source": "./",
+    "description": "A live weather forecast of your context window, in the band above the prompt."
+  }]
+}
