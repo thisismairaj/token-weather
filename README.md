@@ -6,6 +6,24 @@
 
 ---
 
+## Why this matters
+
+Claude Code already tracks how full your context window is, but only if you
+go ask for it - and by the time you think to check, you're often already
+past the point where it would have changed what you did next. That's the
+same gap as noticing you're low on gas only once the light starts blinking.
+
+token-weather doesn't act on your context, and it doesn't make Claude any
+smarter. What it does is turn a number you'd otherwise have to go look up
+into something you register passively, the way you'd glance at weather out a
+window: a color and a shape, always visible, no query required. That's
+enough to shift your own behavior a beat earlier - wrapping up a line of
+reasoning before a compaction forces it instead of after.
+
+**One honest limit:** it's a display, not a control. It never compacts,
+trims, or manages anything for you - it only makes the number impossible to
+miss.
+
 ## What it looks like
 
 ```
